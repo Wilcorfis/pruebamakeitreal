@@ -1,0 +1,60 @@
+@import url(http://font.googleapis.com/css?family=Montserrat:400,700);
+body{
+   color: #555;
+   margin: 0;
+   font-family: 'Montserrat',sans-serif;
+}
+.container{
+   max-width:1000px;
+   margin:0 auto;
+}
+
+
+.post-author img,.about-author img{
+   width: 150px;
+   height: 150px;
+   vertical-align: middle;
+}
+.post-author span{
+   margin-left: 10px;
+   
+}
+.post-author img{
+   border:1px solid #CCCCCC;
+  
+   border-width: 10px;
+   
+}
+
+
+
+.post-date{
+   color:rgb(253, 251, 251);
+   font-size: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   
+}
+
+p{
+   line-height: 1.5;
+}
+/*ABOUT*/
+.post, .about{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 240px 0;
+  
+   
+}
+.about{
+   text-align: center;
+}
+.post-author img, .about-author img{
+   border-radius: 50%;
+}
+.post-container:nth-child(even){
+   background-color: #f2f2f2;
+}
+
